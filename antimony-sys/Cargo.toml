@@ -5,7 +5,7 @@ edition = "2018"
 authors = ["Nathaniel Yazdani <nyazdani@cs.washington.edu>"]
 description = "Low-level rust-bindgen bindings for the Antimony biochemical-modeling library"
 readme = "README.md"
-keywords = ["FFI", "biology", "parser", "parsing"]
+keywords = ["FFI", "bindings", "bioinformatics", "parser"]
 categories = ["external-ffi-bindings"]
 links = "antimony"
 
