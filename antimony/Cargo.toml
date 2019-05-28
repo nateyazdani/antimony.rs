@@ -1,0 +1,12 @@
+[package]
+name = "antimony"
+version = "0.1.0"
+edition = "2018"
+authors = ["Nathaniel Yazdani <nyazdani@cs.washington.edu>"]
+description = "High-level Rust bindings for the Antimony biochemical-modeling library"
+keywords = ["FFI", "biology", "parser"]
+categories = ["api-bindings"]
+readme = "README.md"
+
+[dependencies]
+antimony-sys = { path = "../antimony-sys", version = "0.1.0" }

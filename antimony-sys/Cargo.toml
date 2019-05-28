@@ -1,0 +1,13 @@
+[package]
+name = "antimony-sys"
+version = "0.1.0"
+edition = "2018"
+authors = ["Nathaniel Yazdani <nyazdani@cs.washington.edu>"]
+description = "Low-level rust-bindgen bindings for the Antimony biochemical-modeling library"
+readme = "README.md"
+keywords = ["FFI", "biology", "parser", "parsing"]
+categories = ["external-ffi-bindings"]
+links = "antimony"
+
+[build-dependencies]
+bindgen = "0.49.0"

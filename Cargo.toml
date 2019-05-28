@@ -1,0 +1,2 @@
+[workspace]
+members = ["antimony", "antimony-sys"]
